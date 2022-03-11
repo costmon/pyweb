@@ -8,7 +8,7 @@ rm-rf - 폴더삭제
 파이썬 애니웨어 들어와서 로그인하기
 아이디:costmon
 비번:sksms!@#2468
-
+콘솔 - 베쉬(Bash)로 들어가기
 
 1.ls 확인
 2.깃 연동시키기
@@ -22,4 +22,4 @@ rm-rf - 폴더삭제
 10.가상화 들어와서 cd ~/pyweb 
 11.pip install django 인스톨(오래~ 걸림!!)
 12.python manage.py migrate 치기
-13.
+13.메뉴에서 web 클릭해서 add a new
