@@ -21,7 +21,8 @@
             <!-- 질문 추천 영역 -->
             <div class="col-1">
                 <div class="bg-light text-center border p-3 font-weight-bolder">
-                    <!--{{ 0 }}--> {{ question.voter.count }}
+<!--                    {{ 0 }}-->
+                    {{ question.voter.count }}
                 </div>
                 <a href="#" data-uri="{% url 'board:vote_question' question.id %}"
                    class="recommend btn btn-secondary btn-block my-1">추천</a>
