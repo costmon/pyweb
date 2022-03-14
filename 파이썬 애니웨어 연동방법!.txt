@@ -66,3 +66,6 @@ rm-rf - 폴더삭제
 12.python manage.py migrate 치기
 >>>>>>> 80677eb9afdf41c4f25b94225ef028d9ea61edda
 13.메뉴에서 web 클릭해서 add a new
+
+사이트 들어가는 링크
+http://costmon.pythonanywhere.com/
