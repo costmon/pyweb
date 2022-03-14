@@ -66,3 +66,15 @@ rm-rf - 폴더삭제
 12.python manage.py migrate 치기
 >>>>>>> 80677eb9afdf41c4f25b94225ef028d9ea61edda
 13.메뉴에서 web 클릭해서 add a new
+
+사이트 들어가는 링크
+http://costmon.pythonanywhere.com/
+
+수정하는법!
+
+1.콘솔 들어가서 ls
+2.cd pyweb
+3.git pull 치고 확인
+4.git stash 확인
+5.다시 git pull로 수정사항 연동후
+6.web 으로 가서 Reload 누른후 재접속하면 완성!
