@@ -1,0 +1,94 @@
+<<<<<<< HEAD
+python -m venv .
+
+가상화 모듈 2종류 - venv, virtualenv(파이썬 애니웨어에서 사용!)
+배포(수)- AWS(아마존 웹서비스- 리눅스 우분투)
+
+테스트 수행 모듈(월)
+배포(수)
+
+게시판 - 댓글기능,파일업로드(블로그),카테고리(블로그)
+
+
+
+ls - 폴더확인
+rm-rf - 폴더삭제
+
+파이썬 애니웨어 들어와서 로그인하기
+아이디:costmon
+비번:sksms!@#2468
+콘솔 - 베쉬(Bash)로 들어가기
+
+1.ls 확인
+2.깃 연동시키기
+3.pwd 연동
+4.pyweb 들어가기
+5.virtualenv venvs --python=python3.8 치기
+6.가상화 들어와서 ls로 폴더확인
+7.venvs 들어가기
+8.ls처서 빈폴더 들어가기 bin으로 
+9.bin 으로 들어와서 . activate 치기
+10.가상화 들어와서 cd ~/pyweb 
+11.pip install django 인스톨(오래~ 걸림!!)
+12.python manage.py migrate 치기
+=======
+python -m venv .
+
+가상화 모듈 2종류 - venv, virtualenv(파이썬 애니웨어에서 사용!)
+배포(수)- AWS(아마존 웹서비스- 리눅스 우분투)
+
+테스트 수행 모듈(월)
+배포(수)
+
+게시판 - 댓글기능,파일업로드(블로그),카테고리(블로그)
+
+
+
+ls - 폴더확인
+rm-rf - 폴더삭제
+
+파이썬 애니웨어 들어와서 로그인하기
+아이디:costmon
+비번:sksms!@#2468
+콘솔 - 베쉬(Bash)로 들어가기
+
+1.ls 확인
+2.깃 연동시키기
+3.pwd 연동
+4.pyweb 들어가기
+5.virtualenv venvs --python=python3.8 치기
+6.가상화 들어와서 ls로 폴더확인
+7.venvs 들어가기
+8.ls처서 빈폴더 들어가기 bin으로 
+9.bin 으로 들어와서 . activate 치기
+10.가상화 들어와서 cd ~/pyweb 
+11.pip install django 인스톨(오래~ 걸림!!)
+12.python manage.py migrate 치기
+>>>>>>> 80677eb9afdf41c4f25b94225ef028d9ea61edda
+13.메뉴에서 web 클릭해서 add a new
+
+사이트 들어가는 링크
+http://costmon.pythonanywhere.com/
+
+수정하는법!
+
+1.콘솔 들어가서 ls
+2.cd pyweb
+3.git pull 치고 확인
+4.git stash 확인
+5.다시 git pull로 수정사항 연동후
+6.web 으로 가서 Reload 누른후 재접속하면 완성!
+
+DEBUG = False(운영서버에서 작동)
+웹서버(리눅스)에서 관리
+- static(정적파일) 관련 - img ,js ,css
+
+WAS(-웹 애플리케이션 서버:장고, 플라스크, 스프링)
+template 관련 파일 관리
+
+DEBUG - True(개발서버에서 작동)
+
+get_object_or_404()의 기능!!
+-url 경로가 맞으면 페이지를 가져오고, 경로가 틀리면 페이지 없음으로
+(404코드 출력)처리가 되는 기능
+
